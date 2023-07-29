@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>UCP Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <form onsubmit="" class="form-container">
+        <h2>Registration</h2>
+        <hr />
+
+        <!-- reg no -->
+        <div class="input-box">
+          <span>Reference No</span>
+          <input
+            max="XXXXXXXXXXXX"
+            type="text"
+            placeholder="enter your registration number"
+          />
+        </div>
+
+        <!-- fullname -->
+        <div class="fullname-input-box">
+          <div class="input-box">
+            <span>First Name</span>
+            <input type="text" placeholder="enter your first name" />
+          </div>
+          <div class="input-box">
+            <span>Last Name</span>
+            <input type="text" placeholder="enter your last name" />
+          </div>
+        </div>
+
+        <div class="fullname-input-box">
+          <div class="input-box">
+            <span>Phone Number</span>
+            <div class="phone-input">
+              <select name="code" id="code" class="code">
+                <option value="92">92</option>
+                <option value="291">291</option>
+                <option value="12">12</option>
+                <option value="91">91</option>
+              </select>
+              <input type="text" class="phone" placeholder="enter number" />
+            </div>
+          </div>
+          <div class="input-box">
+            <span>Program</span>
+            <select name="program" id="cars" class="program">
+              <option value="BSSE">Software Engineering</option>
+              <option value="BSCS">Computer Science</option>
+              <option value="BSDS">Data Science</option>
+              <option value="BSAI">BS English</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- email -->
+        <div class="input-box">
+          <span>Email</span>
+          <input required type="email" placeholder="enter your email" />
+        </div>
+
+        <!-- cnic -->
+        <div class="input-box">
+          <span>CNIC / B-Form</span>
+          <input type="text" placeholder="enter your cnic / b-form" />
+        </div>
+
+        <button type="submit">Submit</button>
+        <div class="footer"><h6>Made By Senpai</h6></div>
+      </form>
+    </div>
+  </body>
+</html>

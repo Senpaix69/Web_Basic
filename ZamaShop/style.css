@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.container {
+  padding: 10px;
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  min-width: 350px;
+  border-radius: 10px;
+  background-color: rgb(250, 87, 87);
+  display: grid;
+  place-content: center;
+}
+
+.contents {
+  width: 100%;
+  min-width: 300px;
+}
+
+.other,
+.signBtn {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.bt1 {
+  color: black;
+  background-color: white;
+}
+
+.bt2 {
+  background-color: rgb(6, 135, 255);
+}
+
+.bt3 {
+  background-color: black;
+}
+
+.signBtn > button {
+  background-color: rgb(250, 87, 87);
+  box-shadow: 1px 4px 20px 13px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 1px 4px 20px 13px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 1px 4px 20px 13px rgba(0, 0, 0, 0.22);
+}
+
+button:hover {
+  background-color: black;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 28px;
+  border-radius: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.customBtn {
+  position: relative;
+}
+
+.customBtn > img {
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  left: 38%;
+  top: -70px;
+}

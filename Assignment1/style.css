@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.form-container {
+  position: relative;
+  margin: auto;
+  background-color: rgba(254, 250, 225, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  height: 80%;
+  width: 500px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  color: antiquewhite;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 6px;
+}
+
+span {
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: small;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  border-color: antiquewhite;
+  border-radius: 10px;
+  padding: 10px;
+  border-width: 1px;
+  font-size: small;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.fullname-input-box {
+  display: flex;
+  gap: 10px;
+}
+
+.phone {
+  border: none;
+}
+
+.phone-input {
+  padding-left: 5px;
+  border-radius: 10px;
+  border: 1px solid bisque;
+}
+
+button {
+  margin-top: 10px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.code {
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid beige;
+  outline: none;
+  color: white;
+}
+
+option {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.program {
+  padding: 9px 10px 9px 10px;
+  border-radius: 10px;
+  border: 1px solid bisque;
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+
+.footer {
+  position: absolute;
+  color: white;
+  width: 100%;
+  display: flex;
+  bottom: 20px;
+}
+
+h6 {
+  margin: auto;
+}

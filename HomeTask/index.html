@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>My TimeTable</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Heading -->
+      <header class="header">
+        <img src="uniLogo.svg" alt="uniLogo" height="80px" width="80px" />
+        <h1>UCP Student Portal</h1>
+      </header>
+
+      <!-- Main Body -->
+      <section class="main">
+        <h1>Student Timetable</h1>
+        <table border="1">
+          <!-- row 1 -->
+          <tr>
+            <td><h3>Day/Slot</h3></td>
+            <td>08:00-08:45</td>
+            <td>08:50-09:35</td>
+            <td>09:40-10:25</td>
+            <td>10:30-11:15</td>
+            <td>11:20-12:05</td>
+            <td>12:10-12:55</td>
+            <td>13:00-13:45</td>
+            <td>13:50-14:35</td>
+            <td>14:40-15:25</td>
+          </tr>
+          <!-- row 2 -->
+          <tr id="monday">
+            <td class="days"><h3>Monday</h3></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <div class="course">
+                <p>CSAL3243(F10) USMAN AAMER [A-302]</p>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <!-- row 3 -->
+          <tr id="tuesday">
+            <td class="days"><h3>Tuesday</h3></td>
+            <td>
+              <div class="course">
+                <p>CSAL3253(F5) SYED IRTAZA MUZAFFAR SHAH [A-109]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSAL3253(F5) SYED IRTAZA MUZAFFAR SHAH [A-109]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSNC2413(F1) AHMED RAZA [A-107]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSSS2763(E3) SUMAIRA SHARIF [C-216]</p>
+              </div>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <!-- row 4 -->
+          <tr id="wednesday">
+            <td class="days"><h3>Wednesday</h3></td>
+            <td>
+              <div class="course">
+                <p>CSNC2411(F1) AHMED RAZA [IT201]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSNC2411(F1) AHMED RAZA [IT201]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSNC2411(F1) AHMED RAZA [IT201]</p>
+              </div>
+            </td>
+            <td></td>
+            <td>
+              <div class="course">
+                <p>CSAL3243(F10) USMAN AAMER [A-304]</p>
+              </div>
+            </td>
+            <td></td>
+            <td>
+              <div class="course">
+                <p>CSAL3243(F10) USMAN AAMER [A-304]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSSE3143(E4) MUHAMMAD UMAIR MUNIR [CL202]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSSE3143(E4) MUHAMMAD UMAIR MUNIR [CL202]</p>
+              </div>
+            </td>
+          </tr>
+          <!-- row 5 -->
+          <tr id="thursday">
+            <td class="days"><h3>Thursday</h3></td>
+            <td></td>
+            <td>
+              <div class="course">
+                <p>CSSS2763(E3) SUMAIRA SHARIF [A-109]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSSS2763(E3) SUMAIRA SHARIF [A-109]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSAL3253(F5) SYED IRTAZA MUZAFFAR SHAH [A-109]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSNC2413(F1) AHMED RAZA [A-110]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSNC2413(F1) AHMED RAZA [A-110]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSO3001(M1) unknown [A-113]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSO3001(M1) unknown [A-113]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSO3001(M1) unknown [A-113]</p>
+              </div>
+            </td>
+          </tr>
+          <!-- row 6 -->
+          <tr id="friday">
+            <td class="days"><h3>Friday</h3></td>
+            <td></td>
+            <td></td>
+            <td>
+              <div class="course">
+                <p>CSSE3143(E4) MUHAMMAD UMAIR MUNIR [C-212]</p>
+              </div>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <div class="course">
+                <p>CSAL3241(F10) SADIA ASLAM [CL102]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSAL3241(F10) SADIA ASLAM [CL102]</p>
+              </div>
+            </td>
+            <td>
+              <div class="course">
+                <p>CSAL3241(F10) SADIA ASLAM [CL102]</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <div class="empty"></div>
+  </body>
+</html>

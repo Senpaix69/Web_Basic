@@ -1,0 +1,218 @@
+body {
+  margin: 0px;
+  background-color: #343434;
+}
+.main {
+  margin: auto;
+  min-width: 800px;
+  max-width: 1000px;
+}
+.banner {
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  background-color: #fcc302;
+  height: 400px;
+}
+.BText {
+  max-width: 800px;
+  color: white;
+}
+button {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.contactUs {
+  background-color: rgb(56, 186, 237);
+  color: white;
+  transition: all;
+  transition-duration: 200ms;
+}
+.contactUs:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.ourServices {
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+  height: 350px;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+.serviceText {
+  max-width: 800px;
+}
+.servicesBtn {
+  background-color: #fcc302;
+  color: white;
+}
+.titleHere {
+  color: white;
+  background-color: #fcc302;
+  height: 100vh;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bigH1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.bigP {
+  font-size: 2rem;
+  max-width: 800px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+.TitleCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.ourTeam {
+  height: 400px;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.outTeamCard {
+  display: flex;
+  flex-direction: column;
+  gap: -20px;
+  align-items: center;
+}
+.social {
+  cursor: pointer;
+}
+.Department {
+  background-color: #fcc302;
+  height: 400px;
+}
+.posts {
+  background-color: white;
+  height: 100vh;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 10px;
+}
+.postDetails {
+  padding: 10px;
+  max-width: 200px;
+  line-height: normal;
+  border: 1px solid black;
+}
+.date,
+.readMore {
+  color: rgb(70, 203, 248);
+}
+.footer {
+  background-color: #343434;
+  height: 400px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 3;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  color: white;
+}
+.Footerdetails {
+  line-height: 14px;
+}
+.div3{
+  text-align: right;
+  max-width: 433px;
+}
+
+.footer > h1 {
+  margin-bottom: 10px;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+}
+.navbar {
+  padding: 10px 30px 10px 30px;
+  background-color: #c89902;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  color: white;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 200ms;
+}
+li:hover {
+  color: black;
+  font-size: 1.2rem;
+}
+.search {
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fee594;
+}
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  color: white;
+}
+
+@media screen and (min-width: 800px) {
+  li {
+    font-size: 1.4rem;
+  }
+  li:hover {
+    font-size: 1.8rem;
+  }
+  .cards img {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    padding: 10px 50px 10px 50px;
+  }
+  .ourServices {
+    padding: 0px 50px;
+  }
+  .ourTeam {
+    padding: 0px 50px;
+  }
+}
